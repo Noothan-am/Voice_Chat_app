@@ -1,0 +1,42 @@
+.register_phoneNumber p {
+     font-size: .7rem;
+     margin-top: 1.4rem;
+     width: 60%;
+     line-height: 1.3rem;
+     margin: 1rem auto;
+     color: rgb(186, 186, 186);
+     font-family: 'Inter', sans-serif;
+     text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+}
+
+input[type=number] {
+     -moz-appearance: textfield;
+}
+
+.register_phoneNumber input {
+     padding: .5rem;
+     width: 45%;
+     outline: none;
+     border: none;
+     background-color: rgb(48, 49, 49);
+     font-family: 'Inter', sans-serif;
+     font-weight: bolder;
+     text-align: center;
+     margin-bottom: .7rem;
+}
+
+.register_phoneNumber select {
+     font-family: 'Inter', sans-serif;
+     background-color: rgb(48, 49, 49);
+     border: none;
+     border-right: 1px solid rgb(143, 143, 143);
+     color: rgb(190, 187, 187);
+     height: 2rem;
+     font-weight: bold;
+}

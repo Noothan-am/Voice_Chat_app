@@ -1,0 +1,51 @@
+.home-section {
+     background: -moz-linear-gradient(11deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 7%, rgba(0, 0, 0, 1) 47%, rgba(36, 155, 155) 100%);
+     background: -webkit-linear-gradient(11deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 7%, rgba(0, 0, 0, 1) 47%, rgba(36, 155, 155) 100%);
+     background: -o-linear-gradient(11deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 7%, rgba(0, 0, 0, 1) 47%, rgba(36, 155, 155) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#29B8D8', GradientType=1);
+     background: -ms-linear-gradient(11deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 7%, rgba(0, 0, 0, 1) 47%, rgba(36, 155, 155) 100%);
+     background: linear-gradient(11deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 7%, rgba(0, 0, 0, 1) 47%, rgba(36, 155, 155) 100%);
+     background-repeat: no-repeat;
+     height: 100vh;
+     max-height: 100vh;
+     overflow-y: hidden;
+}
+
+.home_content {
+     height: 40vh;
+     font-family: 'Inter', sans-serif;
+     font-weight: bolder;
+     margin: auto;
+     text-align: center;
+     padding: 3.2rem 2rem;
+     border-radius: 11px;
+     transition: 1s;
+}
+
+.home_content h1 {
+     font-size: 3.96rem;
+     font-weight: bold;
+     margin-bottom: 3rem;
+     margin-top: 7rem;
+}
+
+.home_content p {
+     font-size: .8rem;
+     margin-top: 1.4rem;
+     width: 40%;
+     line-height: 1.3rem;
+     margin: auto;
+     color: rgb(186, 186, 186);
+     text-align: center;
+}
+
+.register {
+     margin-top: 1rem;
+     font-size: .8rem;
+}
+
+.btn {
+     width: 360px;
+     margin: auto;
+     margin-top: 2rem;
+}

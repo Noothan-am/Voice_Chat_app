@@ -1,0 +1,19 @@
+.card_content {
+     width: 36%;
+     text-align: center;
+     padding: 3.7rem 2rem;
+     margin: 5.5rem auto;
+     border: 1px solid rgba(17, 27, 28, 0.475);
+     border-radius: 1rem;
+     background-color: rgb(30, 27, 27);
+     max-height: 17rem;
+}
+
+.card_content-heading {
+     font: bold;
+     font-weight: 20rem;
+     font-size: 1.5rem;
+     margin-top: .7rem;
+     padding-bottom: 2rem;
+     font-family: 'Inter', sans-serif;
+}
