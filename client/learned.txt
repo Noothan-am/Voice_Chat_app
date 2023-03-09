@@ -1,0 +1,14 @@
+New Frontend part learned in this Project
+
+1. how to make protected routes in App.jsx.
+2. how to use maping method in rendering the components in Register.jsx and Activate.jsx without changing the 
+   url and using useState hooks.
+3. how to effectively reuse the components like here Card.jsx.
+4. [ children ] prop is used to get all the elements insede the components
+     ex: <Card name={name}>
+               <li> this is sample li tag<li/>
+               <li> this is sample li tag<li/>
+          </Card>
+
+          here { children } will get you the li tags and other stuffs present in it.
+5. 
