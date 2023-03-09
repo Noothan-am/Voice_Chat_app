@@ -6,7 +6,7 @@ function Phone({ clicked }) {
           <>
                <Card heading={"Enter Phone Number"} buttonText={"Verify"} clicked={clicked}>
                     <div className="register_phoneNumber">
-                         <input type="number" name="phoneNumber" id="phone" />
+                         <input type="number" name="phoneNumber" id="phone" placeholder="Phone No" />
                          <p>By tapping Verify, an SMS may be sent. Message & data
                               rates may apply.</p>
                     </div>

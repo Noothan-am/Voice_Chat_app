@@ -1,26 +1,22 @@
 import React from "react";
 import './app.css'
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Home from "./containers/Home";
-import Room from "./containers/Room";
 import Register from "./containers/Register";
-import Login from "./containers/Login";
-import Name from './components/Name'
-import Username from './components/Username'
-import Photo from './components/Photo'
-import Otp from './components/Otp'
-
+import Activate from "./containers/Activate";
+const isAuth = false;
+const isVerified = false;
 function App() {
 	return (
 		<>
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/login" element={<Login />} />
-				<Route path="/register" element={<Register />} />
-				<Route path="/otp" element={<Otp />} />
-				<Route path="/name" element={<Name />} />
-				<Route path="/username" element={<Username />} />
-				<Route path="/photo" element={<Photo />} />
+				{/* first it checks isauth if authenticated then renders activate compnentent  */}
+				<Route path="/activate" element={isAuth ? <Activate /> : <Navigate to="/register" />} />
+				{/* first it checks isauth if registered then renders activate compnentent  */}
+				<Route path="/register" element={isAuth ? <Navigate to="/activate" /> : <Register />} />
+				{/* first it checks isauth and isverified if registered and authenticated then renders rooms compnentent otherwise renders register or activate comopnent  */}
+				<Route path="/room" element={isAuth && isVerified ? <Navigate to="/room" /> : isAuth && !isVerified ? <Navigate to="/register" /> : <Navigate to="/register" />} />
 			</Routes>
 		</>
 	);

@@ -4,8 +4,8 @@ function Room({ clicked }) {
      return (
           <>
                <Card heading={"Enter Your Otp"} buttonText={"Verify"} clicked={clicked}>
-                    <div className="register-OtpNumber">
-
+                    <div className="register-Room">
+                         this is room
                     </div>
                </Card>
           </>

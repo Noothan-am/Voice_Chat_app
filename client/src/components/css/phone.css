@@ -1,7 +1,7 @@
 .register_phoneNumber p {
-     font-size: .7rem;
+     font-size: .8rem;
      margin-top: 1.4rem;
-     width: 60%;
+     width: 65%;
      line-height: 1.3rem;
      margin: 1rem auto;
      color: rgb(186, 186, 186);
@@ -20,14 +20,15 @@ input[type=number] {
 }
 
 .register_phoneNumber input {
-     padding: .5rem;
      width: 45%;
+     height: 2rem;
      outline: none;
      border: none;
      background-color: rgb(48, 49, 49);
      font-family: 'Inter', sans-serif;
      font-weight: bolder;
      text-align: center;
+     font-size: 1rem;
      margin-bottom: .7rem;
 }
 

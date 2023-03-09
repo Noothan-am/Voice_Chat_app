@@ -1,10 +1,9 @@
-.otp_input input {
-     width: 20%;
+.register-username input {
+     width: 45%;
      height: 2rem;
      outline: none;
      border: none;
-     background-color: rgb(65, 65, 65);
-     border: 1px solid rgb(105, 105, 105);
+     background-color: rgb(48, 49, 49);
      font-family: 'Inter', sans-serif;
      font-weight: bolder;
      text-align: center;
@@ -12,20 +11,12 @@
      margin-bottom: .7rem;
 }
 
-.otp_input {
-     width: 50%;
-     margin: auto;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-}
-
 input::placeholder {
      color: rgb(145, 145, 145);
      font-size: .9rem;
 }
 
-.register-otp p {
+.register-username p {
      font-size: .8rem;
      margin-top: 1.4rem;
      width: 60%;
