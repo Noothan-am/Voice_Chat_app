@@ -1,3 +1,0 @@
-New Frontend part learned in this Project
-
-1. how to make protected routes in App.jsx

@@ -4,6 +4,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import Home from "./containers/Home";
 import Register from "./containers/Register";
 import Activate from "./containers/Activate";
+import Auth from "./containers/Auth";
 const isAuth = false;
 const isVerified = false;
 function App() {
