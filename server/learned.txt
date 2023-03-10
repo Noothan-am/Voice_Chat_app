@@ -1,0 +1,6 @@
+New Backend part learned in this Project
+
+1. learned how to use MVC architecture.
+     - we are creating collection of all the callbacks and exporting, it can be done by array, classes 
+2. about crypto module a inbuilt node module it is used to get a random number it works similarly like 
+   math.random method. there are many method in this 
